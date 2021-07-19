@@ -1,0 +1,27 @@
+{
+  "name": "abundant-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-fileupload": "^1.1.3-alpha.2",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15",
+    "morgan": "~1.9.0",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "pug": "2.0.0-beta11",
+    "stripe": "^8.73.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
